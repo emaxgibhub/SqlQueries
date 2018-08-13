@@ -1,3 +1,5 @@
+--New comments for version control
+
 SELECT
      DECODE(d.department_name,NULL,'-',d.department_name) "Dapartment Name",
      TO_CHAR(avg_sal_sq.avg_sal,'999999.99') "Deparment Average Salary",
